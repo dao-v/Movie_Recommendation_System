@@ -3,6 +3,8 @@
 This script was designed to predict the ratings of movies unseen by users according to the genres and tags associated with the movies they've liked and disliked. The dataset was obtained from grouplens (University of Minnesota, https://grouplens.org/datasets/movielens/), specifically the "MovieLens 25M Dataset": http://files.grouplens.org/datasets/movielens/ml-25m.zip (250 MB)<br>
 The resulting DataFrame produced by this script will choose the top ten movies with the highest predicted ratings.
 
+To see a more step-by-step walkthrough of the code, see my Medium post: https://medium.com/@dv930/recommendation-system-for-movies-movielens-grouplens-171d30be334e
+
 ## Predictive Model Design:
 Predictions are a result of three models. The first model feeds in the genres from the movies that the like and disliked + the genres of the movie in question into a neural network/deep learning model and outputs a predicted rating. The second model is similar to the first model except it uses the tags associated with the movies that have been watched by the user and the tags associated with the movie in question to predict a rating. The third model takes the two predicted ratings from the first two models and predicts a final rating using linear regression.
 
@@ -42,4 +44,5 @@ RAM Speed = DDR4 3000
 
 
 <br><br><br><br>
-VERSION 1.00
+VERSION 1.00<br><br>
+Questions? Comments? Email me: dv930@nyu.edu
