@@ -12,6 +12,7 @@ There is a potential that not all users will be included in this script because 
 
 ## How to Use:
 - To begin using this script, download the "MovieLens 25M Dataset" and extract the file (ml-23m) into the same directory where this script is located.
+- [Optional] Second, also unzip data.zip (from the GitHub repository) into the same directory as well.
 - Next, simply run all the cells in this notebook and all additional folders will be produced as needed. 
 - Lastly, the top ten movies (as well as the predictions for all movies for a specific user) will be displayed in cells 20-22, using the userId of 6550 as an example. These two DataFrames will not be saved automatically and will only be there to show the results. 
 
