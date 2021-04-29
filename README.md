@@ -44,5 +44,13 @@ RAM Speed = DDR4 3000
 
 
 <br><br><br><br>
-VERSION 1.00<br><br>
+VERSION 1.01<br><br>
+Version 1.01 Updates:<br>
+~ Changed all "\\" to "/" (for universial usage in Windows and Linux)<br>
+~ Changed all "to_csv()" to include the "index = False" argument<br>
+~ Changed all "read_csv()" to remove all "index_col = 0" argument<br>
+~ "common_tags_df" creation fixed ("tag" column was becoming a index when using ".groupby()")<br>
+~ Exporting vectorized_dict dictionary as a pickle file (as well as loading it in). Adding the pickle file to data.zip<br>
+
+<br><br>
 Questions? Comments? Email me: dv930@nyu.edu
